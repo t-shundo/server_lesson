@@ -1,0 +1,269 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd ~
+    5  cd /
+    6  cd /root
+    7  pwd
+    8  cd usr
+    9  cd -usr
+   10  cd /usr
+   11  pwd
+   12  cd /
+   13  cd /home
+   14  mkdir test1
+   15  ls
+   16  mkdir test2/test3
+   17  cd /home
+   18  mkdir -p test2/test3
+   19  ls test2
+   20  cd /home
+   21  touch test1/index.php
+   22  ls test1
+   23  cd /home/test1 && ls
+   24  cd /home/test1
+   25  cp index.php copy.php
+   26  ls
+   27  cd /home
+   28  cp -r test1 test4
+   29  ls
+   30  ls test4
+   31  cd /home
+   32  mv test2/test3 test3
+   33  ls
+   34  ls test2
+   35  cd /home/test2
+   36  ls
+   37  cd /home
+   38  mv test4 test1_copy
+   39  ls
+   40  cd /home
+   41  ls test1
+   42  rm test1/copy.php
+   43  ls test1
+   44  cd /home
+   45  rm -r test3
+   46  ls
+   47  cd /home
+   48  rm test1_copy/*.php
+   49  ls test1_copy
+   50  cat README.md
+   51  echo # Hello World > README.md
+   52  cat README.md
+   53  echo # Server Lesson > README.md
+   54  cat README.md
+   55  cd /home
+   56  echo Linux Practice >> README.md
+   57  echo ----------------- >> README.md
+   58  cat README.md
+   59  cd /home
+   60  vi README.md
+   61  vi README.md
+   62  cat README.md
+   63  cd /root
+   64  mkdir server_lesson && cd server_lesson
+   65  yum update -y && yum -y install git
+   66  git version
+   67  git init
+   68  touch first.txt
+   69  git status
+   70  git log
+   71  git add
+   72  git commit -m first commit
+   73  git log
+   74  git config --global user.email aret.sito@gmail.com
+   75  git config --global user.name t-shundo
+   76  git commit -m first commit
+   77  git add
+   78  git status
+   79  git log
+   80  ls
+   81  mkdir linux_practice1
+   82  mkdir linux_practice1/public
+   83  ls
+   84  cd linux_practice1
+   85  ls
+   86  cd ../
+   87  touch linux_practice1/public/index.php
+   88  ls public
+   89  ls linux_practice1/public
+   90  cp linux_practice1/public/index.php index.bk.php
+   91  ls linux_practice1/public
+   92  ls
+   93  mv index.bk.php linux_practice1/public
+   94  ls linux_practice1/public
+   95  cp -r linux_practice1/public linux_pratice1/tmp
+   96  ls
+   97  cp -r linux_practice1/public tmp
+   98  ls
+   99  mv tmp linux_pratice1
+  100  ls linux_practice1
+  101  ls
+  102  rm linux_practice1
+  103  rm -r linux_practice1
+  104  ls
+  105  linux_practice1
+  106  cd linux_pratice1
+  107  ls
+  108  mkdir pubic
+  109  mv index.php public/index.php && mv index.bk.php public/index.bk.php
+  110  ls
+  111  mv index.php /public/index.php
+  112  mv index.php /public
+  113  ls
+  114  ls public
+  115  ls /pubic
+  116  ls /public
+  117  cd ./
+  118  cd ../
+  119  rm -r linux_practice1
+  120  rm -r linux_pratice1
+  121  ls
+  122  mkdir linux_practice1
+  123  mkdir linux_practice1/public
+  124  ls
+  125  cd linux_practice1
+  126  ls
+  127  touch public/index.php
+  128  ls public
+  129  cp public/index.php public/index_bk.php
+  130  ls public
+  131  cp -r public tmp
+  132  ls
+  133  ls temp
+  134  ls tmp
+  135  rm tmp/index_bk.php
+  136  ls tmp
+  137  cd ../
+  138  touch README.md
+  139  vi README.md
+  140  cat README.md
+  141  mkdir linux_practice2
+  142  ls
+  143  mkdir linux_practice2/documents
+  144  ls linux_practice2
+  145  docker stop centos7
+  146  docker start centos7
+  147  docker stop centos7
+  148  cd linux_practice2/documents
+  149  ls
+  150  touch gizumo01.md
+  151  touch gizumo02.md
+  152  touch gizumo03.md
+  153  touch gizumo04.md
+  154  touch gizumo05.md
+  155  touch gizumo06.md
+  156  touch gizumo07.md
+  157  touch gizumo08.md
+  158  touch gizumo09.md
+  159  touch gizumo10.md
+  160  touch gizumo11.md
+  161  touch gizumo12.md
+  162  touch gizumo13.md
+  163  touch gizumo14.md
+  164  touch gizumo15.md
+  165  touch gizumo16.md
+  166  touch gizumo17.md
+  167  touch gizumo18.md
+  168  touch gizumo19.md
+  169  touch gizumo20.md
+  170  touch gizumo21.md
+  171  touch gizumo22.md
+  172  touch gizumo23.md
+  173  touch gizumo24.md
+  174  touch gizumo25.md
+  175  touch gizumo26.md
+  176  touch gizumo27.md
+  177  touch gizumo28.md
+  178  touch gizumo29.md
+  179  touch gizumo30.md
+  180  touch gizumo31.md
+  181  touch gizumo32.md
+  182  touch gizumo33.md
+  183  touch gizumo34.md
+  184  touch gizumo35.md
+  185  touch gizumo36.md
+  186  touch gizumo37.md
+  187  touch gizumo38.md
+  188  touch gizumo39.md
+  189  touch gizumo40.md
+  190  touch gizumo41.md
+  191  touch gizumo42.md
+  192  touch gizumo43.md
+  193  touch gizumo44.md
+  194  touch gizumo45.md
+  195  touch gizumo46.md
+  196  touch gizumo47.md
+  197  touch gizumo48.md
+  198  touch gizumo49.md
+  199  touch gizumo50.md
+  200  ls
+  201  cd ./
+  202  cd .
+  203  cd ../
+  204  mkdir trash
+  205  ls
+  206  mv documents/gizumo20.md trash/gizumo20.md
+  207  mv documents/gizumo21.md trash/gizumo21.md
+  208  mv documents/gizumo22.md trash/gizumo22.md
+  209  mv documents/gizumo23.md trash/gizumo23.md
+  210  mv documents/gizumo24.md trash/gizumo24.md
+  211  mv documents/gizumo25.md trash/gizumo25.md
+  212  mv documents/gizumo26.md trash/gizumo26.md
+  213  mv documents/gizumo27.md trash/gizumo27.md
+  214  mv documents/gizumo28.md trash/gizumo28.md
+  215  mv documents/gizumo29.md trash/gizumo29.md
+  216  mv documents/gizumo30.md trash/gizumo30.md
+  217  mv documents/gizumo31.md trash/gizumo31.md
+  218  mv documents/gizumo32.md trash/gizumo32.md
+  219  mv documents/gizumo33.md trash/gizumo33.md
+  220  mv documents/gizumo34.md trash/gizumo34.md
+  221  mv documents/gizumo35.md trash/gizumo35.md
+  222  mv documents/gizumo36.md trash/gizumo36.md
+  223  mv documents/gizumo37.md trash/gizumo37.md
+  224  mv documents/gizumo38.md trash/gizumo38.md
+  225  mv documents/gizumo39.md trash/gizumo39.md
+  226  mv documents/gizumo40.md trash/gizumo40.md
+  227  cd trash
+  228  ls
+  229  cd ../
+  230  touch .gitignore
+  231  ls
+  232  cd documents
+  233  ls
+  234  cd ../
+  235  touch .gitignore
+  236  ls
+  237  vi .gitignore
+  238  cd /
+  239  git status
+  240  git add
+  241  cd /root
+  242  cd server_lesson
+  243  git status
+  244  git add
+  245  git add README.md
+  246  git add first.txt
+  247  git add linux_practice1
+  248  git add linux_practice2
+  249  git status
+  250  git commit -m first commit
+  251  git log
+  252  vi .gitignore
+  253  git rm --cached linux_practice2/trash/gizumo2?.md
+  254  vi .gitignore
+  255  ls
+  256  rm .gitignore
+  257  ls
+  258  vi .gitignore
+  259  rm .gitignore
+  260  cd linux_practice2
+  261  ls
+  262  cd documents
+  263  ls
+  264  cd ../
+  265  cd trash
+  266  ls
+  267  cd ../
+  268  vi .gitignore
+  269  history 300
